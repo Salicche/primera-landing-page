@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page de Marketing Digital</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Soluciones de Marketing Digital</h1>        
+        <p>Impulsando tu presencia en línea y alcanzando a tu audiencia objetivo.</p>
+        <a href="#contact" class="cta-button">¡Contáctanos!</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service">
+            <img src="img/seo.jpg" alt="" width="200px">
+            <div class="services-hp">
+            <h3>Optimización SEO</h3>
+            <p>Mejoramos tu clasificación en los motores de búsqueda para aumentar la visibilidad de tu sitio web.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="img/rs.jpg" alt="redes sociales" width="200px" >
+            <div class="services-hp">
+            <h3>Publicidad en Redes Sociales</h3>
+            <p>Segmentamos y creamos anuncios efectivos en plataformas de redes sociales para llegar a tu audiencia deseada.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="img/emial.jpg" alt="" width="200px">   
+            <div class="services-hp">
+            <h3>Email Marketing</h3>
+            <p>Desarrollamos campañas de email personalizadas para mantener a tus clientes informados y comprometidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>¿Listo para llevar tu estrategia de marketing al siguiente nivel? ¡Contáctanos ahora!</p>
+        <form id="contact-form" class="contact-form">
+            <div class="name-email">
+                <input class="input" type="text" id="name" placeholder="Nombre" required>
+                <input class="input" type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="message-btn">
+            <textarea id="message" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="cta-button">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Todos los derechos reservados.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
